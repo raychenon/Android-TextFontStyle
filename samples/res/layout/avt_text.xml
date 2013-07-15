@@ -1,21 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:ray="http://schemas.android.com/apk/res-auto"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ray="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-
-    <com.raychenon.TextViewStyle
-        android:id="@+id/text_wifi"
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="bottom"
-        android:text="@string/loreipsum"
-        android:textColor="#33b5e5"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        ray:typeFace="TIBEBA__.TTF"/>
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/hor_margin"
+        android:layout_marginRight="@dimen/hor_margin">
 
-</LinearLayout>
+
+        <com.raychenon.TextViewStyle
+            android:id="@+id/text_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:text="@string/loreipsum"
+            ray:typeFace="@string/font_baroquescript"/>
+
+    </LinearLayout>
+
+</ScrollView>
