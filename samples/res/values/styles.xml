@@ -15,4 +15,22 @@
         <item name="android:textColor">@android:color/black</item>
     </style>
 
+
+
+    <style name="TextStyleBaroque" >
+        <item name="typeFace">@string/font_baroquescript</item>
+    </style>
+
+    <style name="TextStyleFajardo" >
+        <item name="android:textSize">26sp</item>
+        <item name="typeFace">@string/font_james_fajardo</item>
+    </style>
+
+    <style name="TextStyleStint" >
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="typeFace">@string/font_stint_ultra_condensed</item>
+    </style>
+
+
 </resources>

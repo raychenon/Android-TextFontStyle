@@ -33,5 +33,12 @@
             </intent-filter>
         </activity>
 
+        <activity android:label="@string/label_style" android:name=".StyleTextActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.textstyle.sample.EXAMPLE"/>
+            </intent-filter>
+        </activity>
+
     </application>
 </manifest>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ray="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+<LinearLayout
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="@dimen/hor_margin"
+              android:layout_marginRight="@dimen/hor_margin">
+
+
+
+    <com.raychenon.TextViewStyle
+            android:id="@+id/text_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:text="@string/text_license_apache2"
+            style="@style/TextStyleBaroque"/>
+
+
+    <com.raychenon.TextViewStyle
+            android:id="@+id/text_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/text_license_apache2_url"
+            style="@style/TextStyleStint"/>
+
+    <com.raychenon.TextViewStyle
+            android:id="@+id/text_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_license_apache2_rest"
+            style="@style/TextStyleFajardo"/>
+
+</LinearLayout>
+
+</ScrollView>
