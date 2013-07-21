@@ -20,10 +20,12 @@
     See the License for the specific language governing permissions and
     limitations under the License.</string>
 
+    <string name="text_shrdlu">etaoin shrdlu</string>
+
     <!-- Label -->
     <string name="label_programmatically">Font added programmatically</string>
     <string name="label_simple">Simple</string>
-    <string name="label_style">Theme | Style</string>
+    <string name="label_style">Theme , Style</string>
 
     <!-- Fonts -->
     <string name="font_baroquescript">BaroqueScript.ttf</string>

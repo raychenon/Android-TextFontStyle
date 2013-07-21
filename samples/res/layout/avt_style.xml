@@ -17,7 +17,7 @@
 
 
     <com.raychenon.TextViewStyle
-            android:id="@+id/text_wifi"
+            android:id="@+id/text_license_top"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="bottom"
@@ -26,7 +26,7 @@
 
 
     <com.raychenon.TextViewStyle
-            android:id="@+id/text_wifi"
+            android:id="@+id/text_license_middle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
@@ -34,7 +34,7 @@
             style="@style/TextStyleStint"/>
 
     <com.raychenon.TextViewStyle
-            android:id="@+id/text_wifi"
+            android:id="@+id/text_license_bottom"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/text_license_apache2_rest"
